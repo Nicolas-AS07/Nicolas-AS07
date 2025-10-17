@@ -48,7 +48,7 @@
 
 ---
 
-## 👨‍💻 Sobre mim
+##  Sobre mim
 - Foco em **APIs robustas**, **automação de dados** e **produtos com IA** de ponta a ponta.  
 - Amo **Python** (Pandas, FastAPI, automações), mas também jogo no **front** quando precisa (React/Vite/Tailwind).  
 - Experiência com integrações **Google Cloud/Sheets/Drive**, **GitHub Actions**, e **serviços de IA** (Gemini, embeddings, visão computacional).  
