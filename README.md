@@ -32,11 +32,12 @@
   <p>
     <div align="center">
 
- <div align="center">
-  <a href="https://nicolas-as07.github.io/copy-email">
-    <img alt="Copiar e-mail" src="https://img.shields.io/badge/COPIAR%20E-MAIL-nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&labelColor=1a1b27&logo=maildotru&logoColor=white" />
+<div align="center">
+  <a href="https://Nicolas-AS07.github.io/copy-email/">
+    <img alt="Copiar e-mail" src="https://img.shields.io/badge/COPIAR%20E--MAIL-nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&labelColor=1a1b27&logo=gmail&logoColor=white" />
   </a>
 </div>
+
 
 
   <!-- LinkedIn (se quiser ao lado) -->
