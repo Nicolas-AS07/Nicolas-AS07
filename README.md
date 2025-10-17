@@ -33,12 +33,9 @@
     <div align="center">
 
 <div align="center">
-  <a href="[https://Nicolas-AS07.github.io/copy-email/](https://nicolas-as07.github.io/Nicolas-AS07/)">
-    <img alt="Copiar e-mail" src="https://img.shields.io/badge/COPIAR%20E--MAIL-nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&labelColor=1a1b27&logo=gmail&logoColor=white" />
+  <a href="mailto:nicosilva071106@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" />
   </a>
-</div>
-
-
 
   <!-- LinkedIn (se quiser ao lado) -->
   <a href="https://www.linkedin.com/in/nicolas-alves-da-silva/">
