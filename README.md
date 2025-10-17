@@ -8,10 +8,11 @@
 
 <div align="center">
   
-  <h1>Hallo Welt — eu sou o Nicolas 👋</h1>
+  Hallo Welt 
+  <h2>Me chamo Nicolas</h2>
   <p><strong>Back-End / Full-Stack Developer & AI Engineer</strong></p>
   
-  <!-- Lua SVG minimalista para garantir renderização no GitHub -->
+ 
   <svg width="180" height="180" viewBox="0 0 200 200" role="img" aria-label="Lua">
     <defs>
       <radialGradient id="g" cx="40%" cy="35%" r="70%">
@@ -30,13 +31,19 @@
 
   <p>
     <div align="center">
+
+  <!-- Clicável em toda a área (abre o compose) -->
   <a href="mailto:nicosilva071106@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" />
+    <img alt="Email label" src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27&color=1a1b27" />
+    <img alt="Email address" src="https://img.shields.io/badge/nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&labelColor=7aa2f7&color=7aa2f7" />
   </a>
+
+  <!-- LinkedIn (se quiser ao lado) -->
   <a href="https://www.linkedin.com/in/nicolas-alves-da-silva/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-nicolas--alves--da--silva-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" />
   </a>
 </div>
+
 
 </div>
 
