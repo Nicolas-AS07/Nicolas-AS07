@@ -32,11 +32,12 @@
   <p>
     <div align="center">
 
-  <!-- Clicável em toda a área (abre o compose) -->
-  <a href="mailto:nicosilva071106@gmail.com">
-    <img alt="Email label" src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27&color=1a1b27" />
-    <img alt="Email address" src="https://img.shields.io/badge/nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&labelColor=7aa2f7&color=7aa2f7" />
+ <div align="center">
+  <a href="https://nicolas-as07.github.io/copy-email">
+    <img alt="Copiar e-mail" src="https://img.shields.io/badge/COPIAR%20E-MAIL-nicosilva071106%40gmail.com-7aa2f7?style=for-the-badge&labelColor=1a1b27&logo=maildotru&logoColor=white" />
   </a>
+</div>
+
 
   <!-- LinkedIn (se quiser ao lado) -->
   <a href="https://www.linkedin.com/in/nicolas-alves-da-silva/">
