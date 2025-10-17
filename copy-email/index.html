@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Copiar e-mail — Nicolas</title>
+  <style>
+    :root{
+      --bg:#0f1226; --card:#1a1b27; --primary:#7aa2f7; --accent:#bf91f3; --text:#c0caf5;
+    }
+    html,body{height:100%}
+    body{margin:0;display:grid;place-items:center;background:linear-gradient(180deg,var(--bg),#11152e);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+    .card{background:var(--card);padding:28px 24px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.35);text-align:center;min-width:320px}
+    h1{font-size:18px;margin:0 0 8px}
+    p{opacity:.85;margin:0 0 18px}
+    .pill{display:inline-flex;align-items:center;gap:10px;background:var(--primary);color:#0b0e1a;border:none;border-radius:999px;padding:14px 18px;font-weight:700;letter-spacing:.4px;cursor:pointer}
+    .pill:active{transform:translateY(1px)}
+    .small{margin-top:12px;font-size:12px;opacity:.75}
+    .ok{color:var(--accent);font-weight:700}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Copiar e-mail</h1>
+    <p>Clique abaixo para copiar: <strong>nicosilva071106@gmail.com</strong></p>
+    <button id="copy" class="pill" aria-label="Copiar e-mail para a área de transferência">
+      📋 COPIAR E-MAIL
+    </button>
+    <div id="status" class="small" role="status" aria-live="polite"></div>
+  </main>
+
+  <script>
+    const EMAIL = "nicosilva071106@gmail.com";
+    const btn = document.getElementById("copy");
+    const status = document.getElementById("status");
+
+    async function copyEmail(){
+      try{
+        // API moderna
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(EMAIL);
+        } else {
+          // Fallback p/ navegadores antigos
+          const ta = document.createElement("textarea");
+          ta.value = EMAIL;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+        }
+        status.innerHTML = `<span class="ok">✔ Copiado!</span> Agora é só colar (Ctrl/Cmd + V).`;
+      } catch (e){
+        status.textContent = "Não consegui copiar automaticamente. Selecione e copie manualmente.";
+      }
+    }
+
+    btn.addEventListener("click", copyEmail);
+    // Copia automaticamente ao abrir (opcional). Descomente se quiser:
+    // copyEmail();
+  </script>
+</body>
+</html>
